@@ -1,18 +1,11 @@
-import { ReactNode } from 'react';
+import { Container } from "./styles";
 
-import { Container } from './styles';
-
-interface AddressesInfoProps {
-  children: ReactNode;
-}
-
-function AddressesInfo({ children }: AddressesInfoProps) {
+function AddressesInfo() {
   return (
     <Container>
       <h1>AddressesInfo</h1>
-      {children}
     </Container>
   );
-};
+}
 
 export default AddressesInfo;

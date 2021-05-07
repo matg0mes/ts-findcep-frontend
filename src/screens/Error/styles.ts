@@ -9,5 +9,10 @@ export const Container = styled.div`
 `;
 
 export const Image = styled.img`
-  width: 80%;
+  width: 50%;
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    width: 80%;
+  }
 `;
