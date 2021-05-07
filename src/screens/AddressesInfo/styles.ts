@@ -26,8 +26,12 @@ export const CardsWrapper = styled.ul`
   list-style: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
-  margin-top: 50px;
+  grid-gap: 50px;
+  margin-top: 60px;
+
+  @media only screen and (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 
 export const WrapperLoader = styled.div`
@@ -89,4 +93,12 @@ export const Label = styled.h2`
 export const Card = styled.li`
   display: flex;
   flex-direction: column;
+  color: #01579b;
+  width: 400px;
+  text-align: center;
+  font-size: 20px;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 15px;
+  }
 `;

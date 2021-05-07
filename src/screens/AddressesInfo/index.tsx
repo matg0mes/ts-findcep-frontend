@@ -12,6 +12,7 @@ import {
   MessageFailed,
   WrapperLoader,
   MessageSuccess,
+  Card,
 } from "./styles";
 
 import Loader from "react-spinners/BeatLoader";
@@ -76,7 +77,16 @@ function AddressesInfo() {
   const renderCards = () => {
     const listAddress = new AddressList(addresses);
 
-    return <div></div>;
+    return (
+      <>
+        {listAddress.items.map((element) => (
+          <Card>
+            {`${element.street}, ${element.neighborhood}`} <br />{" "}
+            {`${element.city} - ${element.state}`}
+          </Card>
+        ))}
+      </>
+    );
   };
 
   useEffect(renderInfos, []);
