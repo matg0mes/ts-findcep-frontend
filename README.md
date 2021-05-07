@@ -39,14 +39,14 @@ Uma vez com o sistema iniciado, adicione o CEP e divirta-se :D
 Click para expandir:
 
 <div>
-<img src="https://i.imgur.com/UtZVtGm.pngg" width="20%" height="20%" />
+<img src="https://i.imgur.com/UtZVtGm.pngg" width="50%"  />
 </div>
 <div>
-<img src="https://i.imgur.com/PxBuzIq.png" width="20%" height="20%" />
+<img src="https://i.imgur.com/PxBuzIq.png" width="50%"  />
 </div>
 <div>
-<img src="https://i.imgur.com/GdyCrxk.png" width="20%" height="20%" />
+<img src="https://i.imgur.com/GdyCrxk.png" width="50%"  />
 </div>
 <div>
-<img src="https://i.imgur.com/vh4pxMj.png" width="20%" height="20%" />
+<img src="https://i.imgur.com/vh4pxMj.png" width="50%"  />
 </div>
