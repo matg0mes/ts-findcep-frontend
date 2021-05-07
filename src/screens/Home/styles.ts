@@ -1,4 +1,8 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+
+interface IMessageError {
+  visible: Boolean;
+}
 
 export const Container = styled.div`
   width: 100%;
@@ -48,4 +52,15 @@ export const Button = styled.button`
 
 export const Image = styled.img`
   width: 200px;
+`;
+
+export const MessageError = styled.p`
+  color: #b71c1c;
+  font-size: 18px;
+
+  ${({ visible }: IMessageError) =>
+    visible &&
+    css`
+      position: relative;
+    `};
 `;
