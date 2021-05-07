@@ -9,4 +9,7 @@ export const GlobalStyles = createGlobalStyle`
     *, input, button{
         font-family: 'Roboto', sans-serif
     }
+    html, body, #root {
+        height: 100%;
+    }
 `;

@@ -1,16 +1,15 @@
-import { ReactNode } from "react";
+import { Container, Input, Button, Form, Image } from "./styles";
 
-import { Container } from "./styles";
+import logo from "../../assets/images/logo.png";
 
-interface HomeProps {
-  children: ReactNode;
-}
-
-function Home({ children }: HomeProps) {
+function Home() {
   return (
     <Container>
-      <h1>Home</h1>
-      {children}
+      <Form>
+        <Image src={logo} />
+        <Input placeholder="Digite seu CEP" />
+        <Button>Buscar CEP</Button>
+      </Form>
     </Container>
   );
 }
