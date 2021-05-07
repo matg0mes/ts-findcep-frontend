@@ -1,16 +1,11 @@
-import { ReactNode } from "react";
+import { Container, Image } from "./styles";
 
-import { Container } from "./styles";
+import NOT_FOUND from "../../assets/images/NOT_FOUND.png";
 
-interface ErrorProps {
-  children: ReactNode;
-}
-
-function Error({ children }: ErrorProps) {
+function Error() {
   return (
     <Container>
-      <h1>Error</h1>
-      {children}
+      <Image src={NOT_FOUND} />
     </Container>
   );
 }
