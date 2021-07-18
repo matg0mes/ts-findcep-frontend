@@ -2,7 +2,17 @@
    <img src="https://i.imgur.com/smHaxso.png" width="10%" /> Find Address 
 </h1>
 
-# Sobre
+# Findcep Frontend
+
+<p>
+  
+  ![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+  ![](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+  ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+  ![](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+  ![](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+  
+</p>
 
 O Find Address é um projeto com a iniciativa vinda de um teste da empresa EurekaLabs. Consiste em utilizar uma API para buscar um endereço através de seu código postal. Foi utilizado React e StyledComponents.
 
