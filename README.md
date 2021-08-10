@@ -20,7 +20,7 @@ O Find Address é um projeto com a iniciativa vinda de um teste da empresa Eurek
 
 Antes de começar o sistema depende totalmente dos serviços do repositório <a href='https://github.com/FoxGreedy/ts-findcep-backend'>findcep-backend</a>. Instale-o antes de seguir o passo-a-passo.
 
-# Indice
+# Ìndice
 
 - [Instalação](#instalando)
 - [Como Utilizar](#como-utilizar)
