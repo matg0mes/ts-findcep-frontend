@@ -23,8 +23,8 @@ Antes de começar o sistema depende totalmente dos serviços do repositório <a 
 # Indice
 
 - [Instalação](#instalando)
+- [Como Utilizar](#como-utilizar)
 - [Screenshots](#screenshots)
-- [Como Utilizar](#uso)
 
 # Instalando
 
